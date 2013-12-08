@@ -1,0 +1,5 @@
+.select select{-webkit-border-radius:5px;color:#000;font-weight:normal;font-size:14px}
+.select select{border-radius: 5px 5px 5px 5px; line-height: 14px;}
+.select select{-moz-border-radius:5px;}
+.select select{border: 1px solid #ccc;}
+.select select{text-overflow: ellipsis;white-space: nowrap;}

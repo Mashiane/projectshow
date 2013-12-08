@@ -1,0 +1,9 @@
+{ "manifest_version": 2,
+  "name": "SAFIRI Mobile Project.Show",
+  "version": "1.0.7",
+  "offline_enabled": true,
+  "description": "Project Management Software",
+  "icons": { "16": "16.png",
+            "128": "128.png" },
+  "author": "Copyright SAFIRI (Pty) Ltd",
+  "app": {"background": {"scripts": ["background.js"]}}}

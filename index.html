@@ -1,0 +1,201 @@
+﻿<!DOCTYPE HTML>
+<html manifest="OfflineApp.appcache">
+<head>
+<meta charset="utf-8">
+<title>SAFIRI Mobile Project.Show</title>
+<meta name="generator" content="NSB/AppStudio 3.3.0.0b3$" />
+<meta name="date" content="2013-12-08 14:14:41.087000" />
+<meta name="version" content="1.0.7" />
+<meta name="viewport" content="width=device-width minimum-scale=1.0, maximum-scale=0.6667, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="YES" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Project.Show">
+<meta name="copyright" content="Copyright SAFIRI (Pty) Ltd" />
+<link rel="apple-touch-icon" href="114.png" />
+<link rel="apple-touch-startup-image" href="196.png" />
+<link rel="shortcut icon" sizes="196x196" href="196.png"/>
+<script src="nsb/hfunc.js"></script>
+<script src="nsb/messages.js"></script>
+<link href="nsb/nsbstyle.css" rel="stylesheet">
+<script src="nsb/fastclick.js"></script>
+<script src="nsb/complexfunctions.js"></script>
+<script src="nsb/iscroll.js"></script>
+<script src="nsb/jquery.js"></script>
+<script src="nsb/jquery.mobile.js"></script>
+<link href="nsb/jquery.mobile.css" rel="stylesheet">
+<script src="jqwidgets/jqxcore.js"></script>
+<link href="jqwidgets/styles/jqx.base.css" rel="stylesheet">
+<link href="jqwidgets/styles/jqx.energyblue.css" rel="stylesheet">
+<script src="jqwidgets/jqxchart.js"></script>
+<script src="jqwidgets/jqxdata.js"></script>
+<link href="nsb/css/style.css" rel="stylesheet">
+
+<script src="21.js"></script>
+<link href='nsb/library/add2home.css' rel='stylesheet'>
+<script src='nsb/library/add2home.js'></script>
+<script src="25.js"></script>
+<link href='nsb/library/add2home.css' rel='stylesheet'>
+<script src='nsb/library/add2home.js'></script>
+
+<style type="text/css">
+#lstMainMenu_scroller {position: absolute; width:100%; height:240px; left:0px; top:40px;}
+#lstMainMenu {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#mmHeader {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#settingsHeader {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#settingsList_scroller {position: absolute; width:100%; height:376px; left:0px; top:42px;}
+#settingsList {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#setgridTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#setgrid_scroller {position: absolute; width:70px; height:32px; left:0px; top:42px; right:auto; bottom:auto;}
+#setgrid {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#setgrid1_scroller {position: absolute; width:70px; height:100px; left:0px; top:42px; right:auto; bottom:auto;}
+#setgrid1 {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#setgrid5_scroller {position: absolute; width:70px; height:100px; left:0px; top:42px; right:auto; bottom:auto;}
+#setgrid5 {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#dbTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#dbGrid_scroller {position: absolute; width:70px; height:32px; left:0px; top:42px; right:auto; bottom:auto;}
+#dbGrid {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#portList_scroller {position: absolute; width:100%; height:300px; left:0px; top:42px;}
+#portList {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#portListTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#projectList_scroller {position: absolute; width:400px; height:300px; left:0px; top:42px;}
+#projectList {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#projectListTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#projectList1_scroller {position: absolute; width:100%; height:300px; left:405px; top:42px;}
+#projectList1 {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#lstAnalysis_scroller {position: absolute; width:100%; height:240px; left:0px; top:40px;}
+#lstAnalysis {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#analysisTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#catPerformanceTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#catPerformanceChart_wrapper {position:absolute; left:0px; top:42px; height:30px; width:320px}
+#catPerformanceChart {position:relative; left:0px; top:0px; height:100%; width:100%}
+#portfolioAnalysisL_scroller {position: absolute; width:400px; height:300px; left:0px; top:42px;}
+#portfolioAnalysisL {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#portfolioAnalysisT {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#portfolioAnalysisC_wrapper {position:absolute; left:408px; top:48px; height:30px; width:320px}
+#portfolioAnalysisC {position:relative; left:0px; top:0px; height:100%; width:100%}
+#clusterAnalysisL_scroller {position: absolute; width:400px; height:300px; left:0px; top:42px;}
+#clusterAnalysisL {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#clusterAnalysisT {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#clusterAnalysisC_wrapper {position:absolute; left:408px; top:48px; height:30px; width:320px}
+#clusterAnalysisC {position:relative; left:0px; top:0px; height:100%; width:100%}
+#clusterAnalysisLS_scroller {position: absolute; width:394px; height:300px; left:9px; top:92px;}
+#clusterAnalysisLS {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#clusterAnalysisTS {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#clusterAnalysisCS_wrapper {position:absolute; left:408px; top:48px; height:30px; width:320px}
+#clusterAnalysisCS {position:relative; left:0px; top:0px; height:100%; width:100%}
+#MultiInput4_scroller {position: absolute; width:393px; height:10px; left:0px; top:42px}
+#MultiInput4 {position:absolute; left:0px; top:0px; width:393px; height:auto;}
+#MultiInput4 {left:0px; top:42px;}
+#cboClusterPortfolio {position:absolute; left:90px; right:auto; top:47px; bottom:auto; height:38px; width:310px}
+#categoryAnalysisL_scroller {position: absolute; width:400px; height:300px; left:0px; top:42px;}
+#categoryAnalysisL {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#categoryAnalysisT {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#categoryAnalysisC_wrapper {position:absolute; left:408px; top:48px; height:30px; width:320px}
+#categoryAnalysisC {position:relative; left:0px; top:0px; height:100%; width:100%}
+#hAbout {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#Label12 {position:absolute; left:8px; right:auto; top:48px; bottom:auto; height:20px; width:864px}
+#Label13 {position:absolute; left:8px; right:auto; top:208px; bottom:auto; height:20px; width:856px}
+#Line1 {position:absolute; left:18px; right:10px; top:186px; bottom:auto; height:2px; width:auto}
+#miInvestPay_scroller {position: absolute; width:300px; height:8px; left:0px; top:42px}
+#miInvestPay {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#miInvestPay {left:0px; top:42px;}
+#invpayTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#invpayOutput_scroller {position: absolute; width:300px; height:8px; left:0px; top:368px}
+#invpayOutput {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#invpayOutput {left:0px; top:368px;}
+#budgetsTitle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtBudgetYear { text-align: left; font-size: 14px; font-family: helvetica; font-style: normal; font-weight: normal; color: black;  padding: 0px; margin: -1px; height: 40px;  zIndex=0 }
+#txtBudgetYear_wrapper > div { position: absolute; width: 196px; left: 104px; right:auto; top: 48px; margin: 0 -0.4em;   }
+#cboBudgetAccount {position:absolute; left:101px; right:auto; top:91px; bottom:auto; height:38px; width:205px}
+#miBudgets1_scroller {position: absolute; width:100px; height:8px; left:96px; top:136px}
+#miBudgets1 {position:absolute; left:0px; top:0px; width:100px; height:auto;}
+#miBudgets1 {left:96px; top:136px;}
+#miBudgets2_scroller {position: absolute; width:100px; height:8px; left:200px; top:136px}
+#miBudgets2 {position:absolute; left:0px; top:0px; width:100px; height:auto;}
+#miBudgets2 {left:200px; top:136px;}
+#budgetsInput_scroller {position: absolute; width:92px; height:8px; left:0px; top:136px}
+#budgetsInput {position:absolute; left:0px; top:0px; width:92px; height:auto;}
+#budgetsInput {left:0px; top:136px;}
+#MultiInput3_scroller {position: absolute; width:300px; height:10px; left:0px; top:42px}
+#MultiInput3 {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#MultiInput3 {left:0px; top:42px;}
+#signInT {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#mSignIn_scroller {position: absolute; width:379px; height:10px; left:0px; top:42px}
+#mSignIn {position:absolute; left:0px; top:0px; width:379px; height:auto;}
+#mSignIn {left:0px; top:42px;}
+#restoreT {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtRestore {position:absolute; left:0px; right:auto; top:44px; bottom:auto; height:185px; width:226px}
+body * {font-family:helvetica}
+</style>
+</head>
+<body style="margin:0px;background-image:url('nsb/images/backgroundStripes.png');">
+<script src="29.js"></script>
+<div data-role="page" id="Page_ProjectShow" data-theme="b" style="background-image:url('nsb/images/backgroundStripes.png');">
+<form id="frmMainMenu" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="31.js"></script>
+</form>
+<form id="frmSettings" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="33.js"></script>
+</form>
+<form id="frmSettingsGrid" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="35.js"></script>
+</form>
+<form id="frmDashboard" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="37.js"></script>
+</form>
+<form id="frmPortfolioSelector" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="39.js"></script>
+</form>
+<form id="frmProjectSelector" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="41.js"></script>
+</form>
+<form id="frmAnalysis" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="43.js"></script>
+</form>
+<form id="CategoryPerformance" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="45.js"></script>
+</form>
+<form id="frmPortfolioAnalysis" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="47.js"></script>
+</form>
+<form id="frmClusterAnalysis" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="49.js"></script>
+</form>
+<form id="frmClusterAnalysisS" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="51.js"></script>
+</form>
+<form id="frmCategoryAnalysis" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="53.js"></script>
+</form>
+<form id="frmAbout" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="55.js"></script>
+</form>
+<form id="InvestPayOff" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="57.js"></script>
+</form>
+<form id="Budgets" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="59.js"></script>
+</form>
+<form id="frmSignIn" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="61.js"></script>
+</form>
+<form id="frmRestore" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="63.js"></script>
+</form>
+</div>
+<script src="65.js"></script><link href="select.css"rel="stylesheet"><script src="67.js"></script>
+<script src="projectshow.js"></script>
+
+</body>
+</html>

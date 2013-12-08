@@ -1,0 +1,1 @@
+var addToHomeConfig = {returningVisitor: false, expire: 720}
