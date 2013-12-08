@@ -33,7 +33,9 @@ delete cboBudgetAccount.childNodes[0];NSB.ComboBox_init('cboBudgetAccount');NSB.
 switch(True){case((choice)=="Back"):ChangeForm(MyAccounts);break;case((choice)=="Next"):}
 return savethefunction_rvar;}
 Budgets.onshow=function(){savethefunction_rvar="";txtBudgetYear.style.zIndex=1;cboBudgetAccount.style.zIndex=1;return savethefunction_rvar;}
-var dbName;var dbObj;var cmData;var cmSource,cmDataAdapter,catKey;var catFrom,catYear,catName,acctFrom;var sqlList,rCnt,payYear,query;var payMonth,payBy,chartPer,payAccount;var dailyPayments,recid,isnew;var DB_REAL="REAL";var DB_INTEGER="INTEGER";var DB_BLOB="BLOB";var DB_TEXT="TEXT";var DB_FLOAT="FLOAT";var DB_NUMERIC="NUMERIC";var VM=Chr(253);var InsertCommands;var UpdateCommands;var monthlysummaryB;var monthlysummaryC;var dbExport;var dbJSON;var dbImport;function InitializeList(lstname,stritems,delim,bclear){var spitems,rscnt,rstot,stritem;if(bclear==True){lstname.deleteItem("all");}
+var dbName;var dbObj;var cmData;var cmSource,cmDataAdapter,catKey;var catFrom,catYear,catName,acctFrom;var sqlList,rCnt,payYear,query;var payMonth,payBy,chartPer,payAccount;var dailyPayments,recid,isnew;var DB_REAL="REAL";var DB_INTEGER="INTEGER";var DB_BLOB="BLOB";var DB_TEXT="TEXT";var DB_FLOAT="FLOAT";var DB_NUMERIC="NUMERIC";var VM=Chr(253);var InsertCommands;var UpdateCommands;var monthlysummaryB;var monthlysummaryC;var dbExport;var dbJSON;var dbImport;function FixMonths(smonths){savethefunction_rvar="";smonths=CStr(smonths);var lenx;lenx=Len(smonths);if(lenx==1){return smonths;}else{var part1,part2;part1=Left(smonths,1);part2=Mid(smonths,2);smonths=part1+"."+part2;smonths=Round(smonths,0);return smonths;}
+return savethefunction_rvar;}
+function InitializeList(lstname,stritems,delim,bclear){var spitems,rscnt,rstot,stritem;if(bclear==True){lstname.deleteItem("all");}
 spitems=Split(stritems,delim);rstot=spitems.length-1;for(rscnt=0;rscnt<=rstot;rscnt++){stritem=spitems[rscnt];lstname.addItem(stritem);}
 lstname.refresh();}
 function ResizeHeaderList(form,header,child){child.Left=0;child.Top=header.Height;child.Height=form.Height-header.Height;child.refresh();}
