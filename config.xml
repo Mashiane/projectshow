@@ -3,7 +3,7 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.ProjectShow"
-version = "1.0.7">
+version = "1.0.9">
 
 <name>SAFIRI Mobile Project.Show</name>
 <description>Project Management Software</description>
