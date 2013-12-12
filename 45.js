@@ -1,4 +1,4 @@
 
-CategoryPerformance.innerHTML=[  NSB.HeaderBar_jqm("catPerformanceTitle", "Top 10 Categories", "Back", "arrow-l", "Refresh", "refresh", " data-theme=b style='' class=' ' "),
-  "<div id='catPerformanceChart_wrapper' style='background-color:white;'><div id='catPerformanceChart'></div></div>",
+frmAnalysis.innerHTML=[  NSB.List_jqm("lstAnalysis", "ul", "", "b", "b", '', "", "N,N,N", "style=", 'class=" "', "100%", true, false, false, "arrow-r"),
+  NSB.HeaderBar_jqm("analysisTitle", "SAFIRI Mobile Project.Show > Analysis", "Home", "home", "", "false", " data-theme=b style='' class=' ' "),
   ].join('');

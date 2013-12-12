@@ -1,4 +1,5 @@
 
-frmRestore.innerHTML=[  NSB.HeaderBar_jqm("restoreT", "SAFIRI Mobile Project.Show > Restore", "Home", "home", "Restore", "check", " data-theme=b style='' class=' ' "),
-  "<textarea id='txtRestore' class=' ' name='' data-theme=c style='display:block; text-align:left; font-size:14px; font-family:helvetica; font-style:normal; font-weight:normal; color:black; background-color:white;-webkit-overflow-scrolling:touch; max-height:185px; '  autocorrect='off'  autocomplete='off'  autocapitalize='off'  placeholder='Replace this text with the copied text from the &apos;Backup&apos; E-Mail.&quot;'></textarea>",
+frmSponsorAnalysis.innerHTML=[  NSB.List_jqm("sponsorAnalysisL", "ul", "none", "b", "b", '', "", "N,N,N", "style=", 'class=" "', "400", true, false, false, "arrow-r"),
+  NSB.HeaderBar_jqm("sponsorAnalysisT", "SAFIRI Mobile Project.Show > Sponsor Analysis", "Back", "arrow-l", "", "false", " data-theme=b style='' class=' ' "),
+  "<div id='sponsorAnalysisC_wrapper' style='background-color:white;'><div id='sponsorAnalysisC'></div></div>",
   ].join('');
