@@ -5078,6 +5078,46 @@ function MapSearch(mapobj,keySearch) { savethefunction_rvar="";
   }
 return savethefunction_rvar; }
 
+ //add a listview item with a title and description
+function ListViewAddTitleDescription(lstView,Title,Description) { savethefunction_rvar="";
+ var  stext;
+ stext = "<h2>"  +  Title  +  "</h2><p>"  +  Description  +  "</p>";
+  lstView.addItem(stext);
+return savethefunction_rvar; }
+
+ // add a listview item with a counter
+function ListViewAddTitleCount(lstView,Title,Counted) { savethefunction_rvar="";
+ var  stext;
+ stext = Title  +  "<span class='ui-li-count'>"  +  Counted  +  "</span>";
+  lstView.addItem(stext);
+return savethefunction_rvar; }
+
+ // add a listview item with aside content
+function ListViewAddTitleAsideContent(lstView,Title,Content) { savethefunction_rvar="";
+ var  stext;
+ stext = Title  +  "<span class='ui-li-aside'><p>"  +  Content  +  "</p></span>";
+  lstView.addItem(stext);
+return savethefunction_rvar; }
+
+function ListViewAddTextBoxWithLabel(lstView,id,caption) { savethefunction_rvar="";
+ var  slabel;
+ slabel = "<label for='"  +  id  +  "'>"  +  caption  +  "</label>";
+ var  stext;
+ stext = "<input type='text' name='"  +  id  +  "' id='"  +  id  +  "' value=''/>";
+  lstView.addItem(slabel  +  stext);
+return savethefunction_rvar; }
+
+function ListViewAddTextBox(lstView,id,caption) { savethefunction_rvar="";
+ var  stext;
+ stext = "<input type='text' name='"  +  id  +  "' id='"  +  id  +  "' value=''/>";
+  lstView.addItem(stext);
+return savethefunction_rvar; }
+
+
+
+
+
+
 window.addEventListener('load', function() {
   frmProject.style.display = 'block';
   NSB.addProperties(projectT);

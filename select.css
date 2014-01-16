@@ -6,6 +6,7 @@
 
 .bigfield input{font-weight:normal;font-size:14px}
 .smallfield input{font-weight:normal;font-size:14px}
+.ui-header .ui-title, .ui-footer .ui-title {margin-right: 0 !important; margin-left: 0 !important;}
 
 #NSB_Progress {
 height:45px;

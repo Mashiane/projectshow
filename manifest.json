@@ -1,6 +1,6 @@
 { "manifest_version": 2,
   "name": "SAFIRI Mobile Project.Show",
-  "version": "1.0.18",
+  "version": "1.0.22",
   "offline_enabled": true,
   "description": "Project Management Software",
   "icons": { "16": "16.png",
